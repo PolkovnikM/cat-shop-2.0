@@ -1,0 +1,177 @@
+body {
+    background-color: rgb(197, 187, 199);
+    font-family: 'Times New Roman';
+    margin: 20px auto;
+    max-width: 1200px;
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(174, 151, 194);
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    color: rgb(80, 40, 120);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: rgb(200, 100, 255);
+}
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(183, 163, 194);
+}
+h2:first-of-type + p {
+    color: rgb(8, 8, 56);       
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    background-color: rgb(245, 245, 255);
+}
+p {
+    color: rgb(0, 0, 0);      
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+ul.characteristics-list {
+    background-color: rgb(245, 245, 255);
+    list-style-type: none;
+    padding: 15px 15px 15px 35px;
+    border-radius: 5px;
+}
+
+ul.characteristics-list li {
+    color: rgb(80, 40, 80);
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+ul.characteristics-list li:nth-child(1)::before { content: "🌍 "; }  
+ul.characteristics-list li:nth-child(2)::before { content: "⚖️ "; }  
+ul.characteristics-list li:nth-child(3)::before { content: "🧶 "; }  
+ul.characteristics-list li:nth-child(4)::before { content: "😊 "; }  
+ul.characteristics-list li:nth-child(5)::before { content: "⏳ "; }  
+ul.characteristics-list li:nth-child(6)::before { content: "✨ "; }  
+ul.characteristics-list li:nth-child(7)::before { content: "🌀 "; }  
+
+ul.characteristics-list li b {
+    color: rgb(120, 0, 120);
+}
+img {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    max-width: 100%;
+    height: auto;
+}
+
+a img {
+    border: none;
+}
+footer {
+    margin-top: 30px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+}
+
+footer p {
+    color: rgb(60, 60, 60);     
+    font-size: 14px;
+    margin: 0;
+}
+.cart-section {
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.remove-btn {
+    background-color: #c71376;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cart-summary {
+    text-align: right;
+    padding-top: 15px;
+    border-top: 2px solid #ddd;
+}
+
+.cart-total {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(120, 0, 120);
+    margin-bottom: 15px;
+}
+
+.clear-cart-btn, .checkout-btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clear-cart-btn {
+    background-color: #c71376;
+    color: white;
+}
+
+.checkout-btn {
+    background-color: rgb(80, 40, 120);
+    color: white;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.filter-btn.active {
+    background-color: rgb(120, 0, 120);
+    color: white;
+}
+.add-btn {
+    background-color: rgb(80, 40, 120);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.add-kitten {
+    background-color: rgb(80, 40, 120);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}

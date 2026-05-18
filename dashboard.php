@@ -67,9 +67,10 @@ $user_login = $_SESSION['user_login'];
     <header>
         <ul>
             <li><a href="index.php">Главная</a></li>
-            <li><a href="catalog.php">Каталог</a></li>           <!-- ← ИСПРАВЛЕНО -->
+            <li><a href="catalog.php">Каталог</a></li>        
             <li><a href="dashboard.php">Личный кабинет</a></li>
             <li><a href="logout.php">Выход</a></li>
+            <li><a href ="react-page.php">React приложение</a></li>
         </ul>
     </header>
 

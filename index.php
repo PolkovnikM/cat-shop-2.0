@@ -17,6 +17,7 @@ $isLoggedIn = isset($_SESSION['user_id']);
             <li><a href="catalog.php">Каталог</a></li>
             <?php if ($isLoggedIn): ?>
                 <li><a href="dashboard.php">Личный кабинет</a></li>
+                <li><a href ="react-page.php">React приложение</a></li>
                 <li><a href="logout.php">Выход</a></li>
             <?php else: ?>
                 <li><a href="login.php">Вход</a></li>
